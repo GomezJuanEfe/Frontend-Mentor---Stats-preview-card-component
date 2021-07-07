@@ -8,21 +8,28 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/desktop.css" media="(min-width:780px)">
   <title>Juan F. | Frontend Mentor | Stats preview card component</title>
 </head>
 <body>
   <main>
     <section class="main">
-      <div class="main-img"></div>
-      <div class="main-background"></div>
-      <h1>Get <span>insights</span> that<br> help your business grow.</h1>
-      <p class="main--principal-text">Discover the benefits of data analytics and make better decisions regarding revenue, customer
-      experience, and overall efficiency.</p>
-      <div class="main--stats">
-        <p><span>10k+</span> COMPANIES</p>
-        <p><span>314</span> TEMPLATES</p>
-        <p><span>12M+</span> QUERIES</p>
+      <div class="main--img-container">
+        <div class="main-img"></div>
+        <div class="main-background"></div>
       </div>
+      <article>
+        <div class="main--text">
+          <h1>Get <span>insights</span> that<br class="br-desktop"> help<br class="br-mobile"> your business grow.</h1>
+          <p class="main--principal-text">Discover the benefits of data analytics and make better decisions regarding revenue,
+            customer experience, and overall efficiency.</p>
+        </div>
+        <div class="main--stats">
+          <p><span>10k+</span> COMPANIES</p>
+          <p><span>314</span> TEMPLATES</p>
+          <p><span>12M+</span> QUERIES</p>
+        </div>
+      </article>
     </section>
   </main>
   <footer>
