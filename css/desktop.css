@@ -1,0 +1,46 @@
+.main {
+    height: 450px;
+}
+.main .main--img-container {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    float: right;
+}
+.main article { 
+    width: 50%;
+    height: 100%;
+    padding: 30px 50px;
+}
+.main .main-img {
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+}
+.main .main-background {
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+}
+.main article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.main .main--text * {
+    text-align: left;
+}
+.main .main--text .br-desktop {
+    display: none;
+}
+.main .main--text .br-mobile {
+    display: block;
+}
+.main .main--principal-text {
+    margin-top: 20px;
+}
+.main .main--stats {
+    flex-direction: row;
+    align-items: center;
+    min-height: 50px;
+    margin-top: 20px ;   
+}
