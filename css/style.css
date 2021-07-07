@@ -30,7 +30,7 @@ body {
 }
 .main .main-img {
     height: 200px;
-    background-image: url(/images/image-header-mobile.jpg);
+    background-image: url('https://raw.githubusercontent.com/GomezJuanEfe/Frontend-Mentor---Stats-preview-card-component/main/images/image-header-desktop.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
